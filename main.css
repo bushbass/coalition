@@ -1,0 +1,62 @@
+.hero {
+  aspect-ratio: 16/8;
+  background-image: url('hero.jpg');
+  background-size: cover;
+}
+.top-menu {
+  margin: 0 20%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu ul {
+  display: flex;
+}
+.top-menu li {
+  padding-left: 50px;
+  list-style: none;
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+}
+.top-menu a {
+  color: white;
+  font-style: italic;
+}
+.hero-footer {
+  margin: 0 20%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-footer ul {
+  display: flex;
+}
+.hero-footer li {
+  padding-left: 50px;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  align-self: center;
+}
+.hero-footer a {
+  color: #414f6b;
+  font-style: italic;
+}
+.hero-footer img,
+ul {
+  height: 45px;
+  align-self: center;
+}
+.history {
+  aspect-ratio: 16/8;
+  background-image: url('history-background.jpg');
+  background-size: cover;
+}
+.carousel {
+  aspect-ratio: 16/2;
+  background-image: url('carousel-background.jpg');
+  background-size: cover;
+}
+.climb {
+  font-size: 5rem;
+  font-family: 'Oswald', serif;
+}
